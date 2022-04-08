@@ -25,12 +25,12 @@
       "oAP" : "\/deploy\/.gitkeep",
       "oF" : 0
     },
-    "\/dev\/index.html" : {
+    "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
+      "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
@@ -54,7 +54,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-tar",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 671121890.61282206
+    "lastBuiltDate" : 671122390.82411003
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
