@@ -15,15 +15,174 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/build\/.gitignore",
-      "oF" : 0
+      "oF" : 1
     },
-    "\/deploy\/.gitkeep" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/deploy\/assets\/images\/gallery_1.jpg" : {
+      "ft" : 16384,
+      "iS" : 71054,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/.gitkeep",
-      "oF" : 0
+      "oAP" : "\/deploy\/assets\/images\/gallery_1.jpg",
+      "oF" : 1,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/assets\/images\/gallery_2.jpg" : {
+      "ft" : 16384,
+      "iS" : 81470,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/assets\/images\/gallery_2.jpg",
+      "oF" : 1,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/assets\/images\/gallery_3.jpg" : {
+      "ft" : 16384,
+      "iS" : 70787,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/assets\/images\/gallery_3.jpg",
+      "oF" : 1,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/assets\/images\/gallery_4.jpg" : {
+      "ft" : 16384,
+      "iS" : 65994,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/assets\/images\/gallery_4.jpg",
+      "oF" : 1,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/assets\/images\/gallery_5.jpg" : {
+      "ft" : 16384,
+      "iS" : 96252,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/assets\/images\/gallery_5.jpg",
+      "oF" : 1,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/assets\/images\/hero_2.jpg" : {
+      "ft" : 16384,
+      "iS" : 561302,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/assets\/images\/hero_2.jpg",
+      "oF" : 1,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/assets\/images\/hero_3.jpg" : {
+      "ft" : 16384,
+      "iS" : 463555,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/assets\/images\/hero_3.jpg",
+      "oF" : 1,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/assets\/images\/hero_desktop.jpg" : {
+      "ft" : 16384,
+      "iS" : 834431,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/assets\/images\/hero_desktop.jpg",
+      "oF" : 1,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/assets\/images\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 6160,
+      "oA" : 0,
+      "oAP" : "\/deploy\/assets\/images\/logo.png",
+      "oF" : 1,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/assets\/images\/planning_icon.jpg" : {
+      "ft" : 16384,
+      "iS" : 20121,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/assets\/images\/planning_icon.jpg",
+      "oF" : 1,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/assets\/images\/seeds_icon.jpg" : {
+      "ft" : 16384,
+      "iS" : 20836,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/assets\/images\/seeds_icon.jpg",
+      "oF" : 1,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/assets\/styles\/main-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/assets\/styles\/main-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/deploy\/assets\/styles\/main.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/assets\/styles\/main-min.css",
+      "oF" : 1,
+      "pg" : 0
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -33,12 +192,36 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
+    "\/dev\/assets\/styles\/main-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/assets\/styles\/main-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/dev\/assets\/styles\/main.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/assets\/styles\/main-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
+      "oAP" : "\/deploy\/index.html",
       "oF" : 1
     }
   },
@@ -54,7 +237,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-tar",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 671122390.82411003
+    "lastBuiltDate" : 671829939.47116399
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
