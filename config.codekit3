@@ -9,14 +9,6 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/build\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/.gitignore",
-      "oF" : 1
-    },
     "\/deploy\/assets\/images\/gallery_1.jpg" : {
       "ft" : 16384,
       "iS" : 71054,
@@ -1826,7 +1818,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
-    "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+    "skippedFoldersString" : "log,\/build,_logs,node_modules,.idea,\/storage\/framework\/sessions,logs,_cache,cache",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
     "tsAllowSyntheticDefaultImports" : 0,
