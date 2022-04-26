@@ -1,0 +1,33 @@
+.author{
+  background-color: $purple;
+  color: $white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  grid-column: span 3;
+
+  @include sm{
+    background-color: $green-med;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 3;
+  }
+  @include md{
+    background-color: $green-dark;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 3;
+  }
+  @include lg{
+    background-color: $tan-light;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 3;
+  }
+}

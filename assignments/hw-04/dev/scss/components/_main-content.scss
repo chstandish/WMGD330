@@ -1,0 +1,99 @@
+.main-content-sidebar {
+    background-color: $dark-blue;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 1;
+
+    @include sm{
+        background-color: $tan-med;
+        color: $white;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        grid-column: span 1;
+    }
+    @include md{
+        background-color: $tan-dark;
+        color: $white;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        grid-column: span 1;
+    }
+    @include lg{
+        background-color: $green-light;
+        color: $white;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        grid-column: span 1;
+    }
+}
+.main-content-body{
+    background-color: $grey;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 2;
+
+    @include sm{
+        background-color: $tan-dark;
+        color: $white;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        grid-column: span 2;
+    }
+    @include md{
+        background-color: $green-light;
+        color: $white;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        grid-column: span 2;
+    }
+    @include lg{
+        background-color: $green-med;
+        color: $white;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        grid-column: span 2;
+    }
+}
+.main-content-ads{
+    background-color: $red;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 1;
+
+    @include sm{
+        background-color: $green-light;
+        color: $white;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        grid-column: span 1;
+    }
+    @include md{
+        background-color: $green-med;
+        color: $white;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        grid-column: span 1;
+    }
+    @include lg{
+        background-color: $green-dark;
+        color: $white;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        grid-column: span 1;
+    }
+}
