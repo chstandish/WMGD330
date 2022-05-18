@@ -1,0 +1,56 @@
+.header {
+    background: $white;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    width: 123px;
+    @include md {
+        width: 128px;
+    }
+    @include lg {
+        width: 133px;
+    }
+    @include xl{
+        width: 138px;
+    }
+}
+
+.header_link {
+    display: none;
+    color: $chestnut_plum;
+    font-size: 24px;
+    font-weight: 600;
+    @include lg {
+        display:flex;
+    }
+    @include xl {
+        display: flex;
+    }
+}
+
+.header_person {
+    display: none;
+    @include md{
+        display: flex;
+    }
+    @include lg{
+        display: flex;
+    }
+    @include xl{
+        display: flex;
+    }
+}
+
+.header_hamburger {
+    display: flex;
+    @include lg{
+        display: none;
+    }
+    @include xl {
+        display:none;
+    }
+}
