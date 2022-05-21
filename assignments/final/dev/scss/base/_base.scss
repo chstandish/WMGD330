@@ -3,6 +3,8 @@
 }
 
 .site-grid {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right:20px;
+	max-width: 1200px;
 }

@@ -19,21 +19,41 @@
     }
 }
 
+.header-links{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
 .header_link {
     display: none;
     color: $chestnut_plum;
     font-size: 24px;
     font-weight: 600;
     @include lg {
-        display:flex;
+        display: flex;
     }
     @include xl {
         display: flex;
     }
 }
 
+.header-icons{
+    display: flex;
+    gap: 16px;
+}
+
+.header_search{
+    width: 29px;
+}
+
+.header_shopping{
+    width: 27px;
+}
+
 .header_person {
     display: none;
+    width: 22px;
     @include md{
         display: flex;
     }
@@ -47,6 +67,7 @@
 
 .header_hamburger {
     display: flex;
+    width: 27px;
     @include lg{
         display: none;
     }

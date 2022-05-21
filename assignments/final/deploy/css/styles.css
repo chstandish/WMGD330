@@ -291,8 +291,10 @@ template {
   box-sizing: border-box; }
 
 .site-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); }
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px; }
 
 body {
   font-family: 'Besley', serif;
@@ -320,6 +322,11 @@ h1, h2, h3, h4, h5, h6 {
   @media (min-width: 1200px) {
     .header_logo {
       width: 138px; } }
+.header-links {
+  display: flex;
+  flex-direction: row;
+  gap: 16px; }
+
 .header_link {
   display: none;
   color: #853119;
@@ -331,8 +338,19 @@ h1, h2, h3, h4, h5, h6 {
   @media (min-width: 1200px) {
     .header_link {
       display: flex; } }
+.header-icons {
+  display: flex;
+  gap: 16px; }
+
+.header_search {
+  width: 29px; }
+
+.header_shopping {
+  width: 27px; }
+
 .header_person {
-  display: none; }
+  display: none;
+  width: 22px; }
   @media (min-width: 768px) {
     .header_person {
       display: flex; } }
@@ -343,7 +361,8 @@ h1, h2, h3, h4, h5, h6 {
     .header_person {
       display: flex; } }
 .header_hamburger {
-  display: flex; }
+  display: flex;
+  width: 27px; }
   @media (min-width: 992px) {
     .header_hamburger {
       display: none; } }
