@@ -369,3 +369,56 @@ h1, h2, h3, h4, h5, h6 {
   @media (min-width: 1200px) {
     .header_hamburger {
       display: none; } }
+.footer {
+  display: flex;
+  height: 307px;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  background-color: #E9E9E9; }
+
+.footer-column-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  gap: 32px; }
+
+.footer-c1-input {
+  width: 375px;
+  height: 64px;
+  border: 1px solid #345006;
+  border-radius: 8px;
+  color: #345006;
+  background: #E9E9E9;
+  text-align: left; }
+
+.footer-c1-subscribe {
+  width: 170px;
+  height: 64px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #345006;
+  border: 1px solid #345006;
+  border-radius: 8px; }
+
+.footer_column_two {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  padding: 0px 0px 0px 4px;
+  gap: 8px; }
+
+.footer-c2-r1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px; }
+
+.footer-c2-r2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px; }

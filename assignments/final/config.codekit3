@@ -716,6 +716,54 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/components\/footer_bottom.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/footer_bottom.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/footer_column_one.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/footer_column_one.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/footer_column_one.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/footer_column_one.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/footer_column_two.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/footer_column_two.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/footer_column_two.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/footer_column_two.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/footer.html",
+      "oF" : 0
+    },
     "\/dev\/components\/header.html" : {
       "cB" : 0,
       "ft" : 8192,
