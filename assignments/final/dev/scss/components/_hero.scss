@@ -1,0 +1,54 @@
+.hero {
+   background-image: url('./img/late_winter_liminal.png');
+   background-position: center;
+   background-size: cover;
+   height: 396px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 16px;
+   gap: 24px;
+}
+
+.hero-heading {
+   color: $eerie_black;
+   font-size: 36px;
+   font-weight: 700;
+   text-align: center;
+   width: 353px;
+   @include md{
+      width: 416px;
+   }
+   @include lg{
+      width: 416px;
+   }
+   @include xl{
+      width: 416px;
+   }
+}
+
+.hero-body {
+   color: $eerie_black;
+   font-size: 16px;
+   text-align: center;
+   width: 351px;
+   @include md{
+      width: 414px;
+   }
+   @include lg{
+      width: 414px;
+   }
+   @include xl{
+      width: 414px;
+   }
+}
+
+.hero-button {
+   width: 172px;
+   height: 50px;
+   text-align: center;
+   color: $white;
+   background-color: $buckthorn_brown;
+   border: 1px solid $buckthorn_brown;
+   border-radius: 8px;
+}

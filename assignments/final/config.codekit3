@@ -36,7 +36,7 @@
     },
     "\/deploy\/img\/about_page_hero.png" : {
       "ft" : 32768,
-      "iS" : 101716,
+      "iS" : 321450,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/about_page_hero.png",
       "oF" : 0,
@@ -374,7 +374,7 @@
     },
     "\/deploy\/img\/late_winter_liminal.png" : {
       "ft" : 32768,
-      "iS" : 238885,
+      "iS" : 863696,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/late_winter_liminal.png",
       "oF" : 0,
@@ -673,7 +673,7 @@
     },
     "\/deploy\/img\/visit_us.png" : {
       "ft" : 32768,
-      "iS" : 364672,
+      "iS" : 1567058,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/visit_us.png",
       "oF" : 0,
@@ -715,6 +715,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dev\/components\/footer_bottom.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/footer_bottom.html",
+      "oF" : 0
     },
     "\/dev\/components\/footer_bottom.kit" : {
       "cB" : 0,
@@ -778,6 +786,30 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/components\/header.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/hero.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/join_the_wonder.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/join_the_wonder.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
