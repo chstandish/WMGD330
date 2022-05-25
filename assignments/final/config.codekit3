@@ -281,6 +281,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/favicon.png" : {
+      "ft" : 32768,
+      "iS" : 1917,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/favicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/fiction_books.png" : {
       "ft" : 32768,
       "iS" : 42438,
@@ -456,8 +469,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/logo_website.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -716,6 +729,22 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/components\/dont_see_the_book.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/dont_see_the_book.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/dont_see_the_book.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/dont_see_the_book.html",
+      "oF" : 0
+    },
     "\/dev\/components\/footer_bottom.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -802,6 +831,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/components\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/join_the_wonder.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/join_the_wonder.html",
       "oF" : 0
     },
     "\/dev\/components\/join_the_wonder.kit" : {
