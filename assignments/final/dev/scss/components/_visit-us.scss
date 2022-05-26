@@ -1,0 +1,102 @@
+.visit-us {
+    background-image: url('../img/visit_us.png');
+    background-position: center;
+    background-size: cover;
+    height: 454px;
+    @include md {
+        height: 468px;
+    }
+    @include lg {
+        height: 468px;
+    }
+    @include xl {
+        height: 528px;
+    }
+}
+
+.visit-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-top: 24px;
+    margin-left: 16px;
+    @include md {
+        padding-top: 32px;
+        margin-left: 119px;
+    }
+    @include lg {
+        padding-top: 32px;
+        margin-left: 334px;
+    }
+    @include xl {
+        padding-top: 64px;
+        margin-left: 373px;
+    }
+}
+
+/*location section*/
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 170px;
+}
+
+.visit-header {
+    text-align: center;
+    color: $white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.address {
+    text-align: center;
+    line-height: 27px;
+    color: $white;
+    font-size: 16px;
+    font-weight: 500;
+}
+/*end location section*/
+
+/*hours*/
+.hours-section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 170px;
+}
+
+.hours-header {
+    text-align: center;
+    color: $white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hours {
+    text-align: center;
+    line-height: 27px;
+    color: $white;
+    font-size: 16px;
+}
+/*end hours*/
+
+/*location buttons*/
+.visit-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+    gap: 16px;
+}
+
+.directions-button {
+    width: 170px;
+    height: 64px;
+    text-align: center;
+    color: $navy_green;
+    background-color: $white;
+    border: 1px solid $navy_green;
+    border-radius: 8px;
+}

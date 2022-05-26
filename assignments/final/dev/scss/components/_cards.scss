@@ -1,0 +1,121 @@
+/*Join The Wonder Card*/
+.join-the-wonder {
+    display: flex;
+    flex-direction: column;
+    background-color: $mikado_green;
+    height: 269px;
+    width: 356px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    @include md {
+        width: 802px;
+        padding: 50px;
+    }
+    @include lg {
+        width: 1248px;
+    }
+    @include xl {
+        width: 1407px;
+    }
+}
+
+.join-header {
+    color: $eerie_black;
+    font-size: 36px;
+    font-weight: 700;
+    width: 356px;
+    text-align: center;
+    @include md {
+        width: 417px;
+    }
+    @include lg {
+        width: 619px;
+    }
+    @include xl {
+        width: 699px;
+    }
+}
+
+.join-body {
+    color: $eerie_black;
+    font-size: 16px;
+    width: 356px;
+    text-align: center;
+    @include md {
+        width: 734px;
+    }
+    @include lg {
+        width: 734px;
+    }
+    @include xl {
+        width: 734px;
+    }
+}
+/*End Join The Wonder Card*/
+
+/*Don't see the book you're looking for card*/
+.dont-see-the-book {
+    display: flex;
+    flex-direction: column;
+    background-color: $mikado_green;
+    height: 269px;
+    width: 356px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    @include md {
+        width: 802px;
+        padding: 50px;
+    }
+    @include lg {
+        width: 1248px;
+    }
+    @include xl {
+        width: 1407px;
+    }
+}
+
+.dont-see-header {
+    color: $eerie_black;
+    font-size: 24px;
+    font-weight: 700;
+    width: 356px;
+    text-align: center;
+    @include md {
+        width: 417px;
+    }
+    @include lg {
+        width: 619px;
+    }
+    @include xl {
+        width: 699px;
+    }
+}
+
+.dont-see-body {
+    color: $eerie_black;
+    font-size: 16px;
+    width: 356px;
+    text-align: center;
+    @include md {
+        width: 734px;
+    }
+    @include lg {
+        width: 734px;
+    }
+    @include xl {
+        width: 734px;
+    }
+}
+
+.email-link {
+    color: $eerie_black;
+}
+/*end don't see the book you're looking for card*/

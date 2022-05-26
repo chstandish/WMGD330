@@ -529,6 +529,98 @@ h1, h2, h3, h4, h5, h6 {
 .email-link {
   color: #1C1C1C; }
 
+/*end don't see the book you're looking for card*/
+.visit-us {
+  background-image: url("../img/visit_us.png");
+  background-position: center;
+  background-size: cover;
+  height: 454px; }
+  @media (min-width: 834px) {
+    .visit-us {
+      height: 468px; } }
+  @media (min-width: 1280px) {
+    .visit-us {
+      height: 468px; } }
+  @media (min-width: 1440px) {
+    .visit-us {
+      height: 528px; } }
+.visit-content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding-top: 24px;
+  margin-left: 16px; }
+  @media (min-width: 834px) {
+    .visit-content {
+      padding-top: 32px;
+      margin-left: 119px; } }
+  @media (min-width: 1280px) {
+    .visit-content {
+      padding-top: 32px;
+      margin-left: 334px; } }
+  @media (min-width: 1440px) {
+    .visit-content {
+      padding-top: 64px;
+      margin-left: 373px; } }
+/*location section*/
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 170px; }
+
+.visit-header {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700; }
+
+.address {
+  text-align: center;
+  line-height: 27px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500; }
+
+/*end location section*/
+/*hours*/
+.hours-section {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 170px; }
+
+.hours-header {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700; }
+
+.hours {
+  text-align: center;
+  line-height: 27px;
+  color: #FFFFFF;
+  font-size: 16px; }
+
+/*end hours*/
+/*location buttons*/
+.visit-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 170px;
+  gap: 16px; }
+
+.directions-button {
+  width: 170px;
+  height: 64px;
+  text-align: center;
+  color: #345006;
+  background-color: #FFFFFF;
+  border: 1px solid #345006;
+  border-radius: 8px; }
+
 .footer {
   display: flex;
   height: 307px;
