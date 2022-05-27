@@ -62,7 +62,7 @@
     },
     "\/deploy\/img\/all_books.png" : {
       "ft" : 32768,
-      "iS" : 251364,
+      "iS" : 1642893,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/all_books.png",
       "oF" : 0,
@@ -166,7 +166,7 @@
     },
     "\/deploy\/img\/crystals_and_candles.png" : {
       "ft" : 32768,
-      "iS" : 66969,
+      "iS" : 417607,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/crystals_and_candles.png",
       "oF" : 0,
@@ -296,7 +296,7 @@
     },
     "\/deploy\/img\/fiction_books.png" : {
       "ft" : 32768,
-      "iS" : 42438,
+      "iS" : 212584,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/fiction_books.png",
       "oF" : 0,
@@ -309,7 +309,7 @@
     },
     "\/deploy\/img\/folklore_and_mythology.png" : {
       "ft" : 32768,
-      "iS" : 67528,
+      "iS" : 459874,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/folklore_and_mythology.png",
       "oF" : 0,
@@ -426,7 +426,7 @@
     },
     "\/deploy\/img\/LGBTQIA.png" : {
       "ft" : 32768,
-      "iS" : 75136,
+      "iS" : 409067,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/LGBTQIA.png",
       "oF" : 0,
@@ -595,7 +595,7 @@
     },
     "\/deploy\/img\/social_justice.png" : {
       "ft" : 32768,
-      "iS" : 68149,
+      "iS" : 414580,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/social_justice.png",
       "oF" : 0,
@@ -699,7 +699,7 @@
     },
     "\/deploy\/img\/witchcraft_books.png" : {
       "ft" : 32768,
-      "iS" : 73719,
+      "iS" : 524877,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/witchcraft_books.png",
       "oF" : 0,
@@ -847,6 +847,22 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/components\/join_the_wonder.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/shopping_sections_grid.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/shopping_sections_grid.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/shopping_sections_grid.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/shopping_sections_grid.html",
       "oF" : 0
     },
     "\/dev\/components\/visit_us.html" : {
@@ -1044,6 +1060,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_navigation.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_shopping_sections.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_shopping_sections.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
