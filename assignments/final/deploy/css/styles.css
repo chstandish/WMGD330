@@ -421,6 +421,116 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #AD711B;
   border-radius: 8px; }
 
+.new-arrivals-label {
+  text-align: center;
+  color: #1C1C1C;
+  font-size: 24px;
+  font-weight: 700; }
+
+/* items */
+.item {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 16px; }
+
+.item-lg-1 {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 265px;
+  height: 431px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 16px; }
+  @media (min-width: 834px) {
+    .item-lg-1 {
+      width: 288px;
+      height: 455px; } }
+  @media (min-width: 1280px) {
+    .item-lg-1 {
+      width: 664px;
+      height: 806px; } }
+  @media (min-width: 1440px) {
+    .item-lg-1 {
+      width: 728px;
+      height: 877px; } }
+.item-lg-3 {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 16px; }
+
+.item-lg-2 {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 16px; }
+
+.item-sm {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 16px; }
+
+/* end items */
+/* item labels */
+.item-label {
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  width: 171px;
+  color: #1C1C1C;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 auto; }
+
+.item-label-small {
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  width: 171px;
+  color: #1C1C1C;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 auto; }
+  @media (min-width: 1280px) {
+    .item-label-small {
+      width: 102px; } }
+/* end item labels */
+/* price */
+.item-price {
+  text-align: center;
+  font-size: 16;
+  color: #1C1C1C; }
+
+/* end prices */
+/* buttons */
+.add-to-cart {
+  width: 170px;
+  height: 64px;
+  border: 1px solid #853119;
+  border-radius: 8px;
+  color: #FFFFFF;
+  background-color: #853119;
+  text-align: center;
+  margin: 0 auto; }
+
+.add-to-cart-small {
+  width: 170px;
+  height: 64px;
+  border: 1px solid #853119;
+  border-radius: 8px;
+  color: #FFFFFF;
+  background-color: #853119;
+  text-align: center; }
+  @media (min-width: 1280px) {
+    .add-to-cart-small {
+      width: 102px;
+      height: 36px;
+      font-size: 8px; } }
+/* end buttons */
 /*Join The Wonder Card*/
 .join-the-wonder {
   display: flex;

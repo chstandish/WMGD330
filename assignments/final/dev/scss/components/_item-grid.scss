@@ -1,0 +1,127 @@
+.new-arrivals-label {
+    text-align: center;
+    color: $eerie_black;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/* items */
+.item {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.item-lg-1 {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    height: 431px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 16px;
+    @include md {
+       width: 288px;
+       height: 455px; 
+    }
+    @include lg {
+        width: 664px;
+        height: 806px;
+    }
+    @include xl {
+        width: 728px;
+        height: 877px;
+    }
+}
+
+.item-lg-3 {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.item-lg-2 {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.item-sm {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+/* end items */
+
+
+/* item labels */
+.item-label {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 171px;
+    color: $eerie_black;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.item-label-small {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 171px;
+    color: $eerie_black;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 auto;
+    @include lg {
+        width: 102px;
+    }
+}
+/* end item labels */
+
+
+/* price */
+.item-price {
+    text-align: center;
+    font-size: 16;
+    color: $eerie_black;
+}
+/* end prices */
+
+
+/* buttons */
+.add-to-cart {
+    width: 170px;
+    height: 64px;
+    border: 1px solid $chestnut_plum;
+    border-radius: 8px;
+    color: $white;
+    background-color: $chestnut_plum;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.add-to-cart-small {
+    width: 170px;
+    height: 64px;
+    border: 1px solid $chestnut_plum;
+    border-radius: 8px;
+    color: $white;
+    background-color: $chestnut_plum;
+    text-align: center;
+    @include lg {
+        width: 102px;
+        height: 36px;
+        font-size: 8px;
+    }
+}
+/* end buttons */
