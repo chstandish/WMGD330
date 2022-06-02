@@ -432,18 +432,29 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   align-content: center;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 171px;
+  height: 365px;
+  margin: 0 auto;
   margin-top: 16px; }
-
+  @media (min-width: 1280px) {
+    .item {
+      width: 304px;
+      height: 477px; } }
+  @media (min-width: 1440px) {
+    .item {
+      width: 328px;
+      height: 504px; } }
 .item-lg-1 {
-  justify-content: center;
+  justify-content: space-between;
   align-content: center;
   display: flex;
   flex-direction: column;
   width: 265px;
   height: 431px;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 16px; }
+  margin: 0 auto; }
   @media (min-width: 834px) {
     .item-lg-1 {
       width: 288px;
@@ -460,20 +471,64 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   align-content: center;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 171px;
+  height: 365px;
+  margin: 0 auto;
   margin-top: 16px; }
-
+  @media (min-width: 834px) {
+    .item-lg-3 {
+      width: 288px;
+      height: 455px; } }
+  @media (min-width: 1280px) {
+    .item-lg-3 {
+      width: 304px;
+      height: 477px; } }
+  @media (min-width: 1440px) {
+    .item-lg-3 {
+      width: 328px;
+      height: 504px; } }
 .item-lg-2 {
-  text-align: center;
-  align-content: center;
   justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 265px;
+  height: 431px;
+  text-align: center;
+  margin: 0 auto;
   margin-top: 16px; }
-
+  @media (min-width: 834px) {
+    .item-lg-2 {
+      width: 171px;
+      height: 365px; } }
+  @media (min-width: 1280px) {
+    .item-lg-2 {
+      width: 408px;
+      height: 608px; } }
+  @media (min-width: 1440px) {
+    .item-lg-2 {
+      width: 448px;
+      height: 632px; } }
 .item-sm {
   text-align: center;
   align-content: center;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 171px;
+  height: 365px;
+  margin: 0 auto;
   margin-top: 16px; }
-
+  @media (min-width: 1280px) {
+    .item-sm {
+      width: 102px;
+      height: 298px; } }
+  @media (min-width: 1440px) {
+    .item-sm {
+      width: 101px;
+      height: 295px; } }
 /* end items */
 /* item labels */
 .item-label {
@@ -531,6 +586,13 @@ h1, h2, h3, h4, h5, h6 {
       height: 36px;
       font-size: 8px; } }
 /* end buttons */
+/* images */
+.these-great-athenians {
+  background: #FFF8F5;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 8px; }
+
 /*Join The Wonder Card*/
 .join-the-wonder {
   display: flex;

@@ -11,11 +11,24 @@
     text-align: center;
     align-content: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 171px;
+    height: 365px;
+    margin: 0 auto;
     margin-top: 16px;
+    @include lg {
+        width: 304px;
+        height: 477px;
+    }
+    @include xl {
+        width: 328px;
+        height: 504px;
+    }
 }
 
 .item-lg-1 {
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
     display: flex;
     flex-direction: column;
@@ -23,7 +36,6 @@
     height: 431px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 16px;
     @include md {
        width: 288px;
        height: 455px; 
@@ -42,21 +54,68 @@
     text-align: center;
     align-content: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 171px;
+    height: 365px;
+    margin: 0 auto;
     margin-top: 16px;
+    @include md {
+        width: 288px;
+        height: 455px;
+    }
+    @include lg {
+        width: 304px;
+        height: 477px;
+    }
+    @include xl {
+        width: 328px;
+        height: 504px;
+    }
 }
 
 .item-lg-2 {
-    text-align: center;
-    align-content: center;
     justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    height: 431px;
+    text-align: center;
+    margin: 0 auto;
     margin-top: 16px;
+    @include md {
+       width: 171px;
+       height: 365px; 
+    }
+    @include lg {
+        width: 408px;
+        height: 608px;
+    }
+    @include xl {
+        width: 448px;
+        height: 632px;
+    }
 }
 
 .item-sm {
     text-align: center;
     align-content: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 171px;
+    height: 365px;
+    margin: 0 auto;
     margin-top: 16px;
+    @include lg {
+        width: 102px;
+        height: 298px;
+    }
+    @include xl {
+        width: 101px;
+        height: 295px;
+    }
 }
 /* end items */
 
@@ -125,3 +184,11 @@
     }
 }
 /* end buttons */
+
+/* images */
+.these-great-athenians {
+    background: $floral_white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 8px;
+}
