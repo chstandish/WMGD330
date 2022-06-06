@@ -664,8 +664,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/the_invisible_kingdom.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -915,6 +915,22 @@
       "oF" : 2,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dev\/page.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/page.html",
+      "oF" : 0
+    },
+    "\/dev\/page.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/page.html",
+      "oF" : 0
     },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,

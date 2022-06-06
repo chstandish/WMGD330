@@ -36,6 +36,7 @@
     height: 431px;
     text-align: center;
     margin: 0 auto;
+    margin-top: 16px;
     @include md {
        width: 288px;
        height: 455px; 
@@ -139,7 +140,7 @@
     width: 171px;
     color: $eerie_black;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     margin: 0 auto;
     @include lg {
         width: 102px;
@@ -188,7 +189,336 @@
 /* images */
 .these-great-athenians {
     background: $floral_white;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    margin-bottom: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 232px;
+    width: 232px;
+    @include md {
+        height: 256px;
+        width: 256px;
+    }
+    @include lg {
+       height: 600px;
+       width: 600px; 
+    }
+    @include xl {
+        height: 666px;
+        width: 666px;
+    }
+}
+
+.rosie {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 144px;
+    width: 144px;
+    @include md {
+        height: 256px;
+        width: 256px;
+    }
+    @include lg {
+       height: 257px;
+       width: 257px; 
+    }
+    @include xl {
+        height: 281px;
+        width: 281px;
+    }
+}
+
+.the-believer {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 144px;
+    width: 144px;
+    @include md {
+        height: 139px;
+        width: 139px;
+    }
+    @include lg {
+       height: 257px;
+       width: 257px; 
+    }
+    @include xl {
+        height: 281px;
+        width: 281px;
+    }
+}
+
+.bless-the-daughter {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 144px;
+    width: 144px;
+    @include md {
+        height: 139px;
+        width: 139px;
+    }
+    @include lg {
+       height: 257px;
+       width: 257px; 
+    }
+    @include xl {
+        height: 281px;
+        width: 281px;
+    }
+}
+
+.groundskeeping {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 144px;
+    width: 144px;
+    @include md {
+        height: 139px;
+        width: 139px;
+    }
+    @include lg {
+       height: 257px;
+       width: 257px; 
+    }
+    @include xl {
+        height: 281px;
+        width: 281px;
+    }
+}
+
+.a-thousand-steps {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 144px;
+    width: 144px;
+    @include md {
+        height: 139px;
+        width: 139px;
+    }
+    @include lg {
+       height: 257px;
+       width: 257px; 
+    }
+    @include xl {
+        height: 281px;
+        width: 281px;
+    }
+}
+
+.the-atlas-six {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 144px;
+    width: 144px;
+    @include md {
+        height: 139px;
+        width: 139px;
+    }
+    @include lg {
+       height: 257px;
+       width: 257px; 
+    }
+    @include xl {
+        height: 281px;
+        width: 281px;
+    }
+}
+
+.the-invisible-kingdom {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 232px;
+    width: 232px;
+    @include md {
+        height: 139px;
+        width: 139px;
+    }
+    @include lg {
+       height: 361px;
+       width: 361px; 
+    }
+    @include xl {
+        height: 401px;
+        width: 401px;
+    }
+}
+
+.cold-clay {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 144px;
+    width: 144px;
+    @include md {
+        height: 139px;
+        width: 139px;
+    }
+    @include lg {
+       height: 80px;
+       width: 80px; 
+    }
+    @include xl {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+.fairy-house {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 144px;
+    width: 144px;
+    @include md {
+        height: 139px;
+        width: 139px;
+    }
+    @include lg {
+       height: 80px;
+       width: 80px; 
+    }
+    @include xl {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+.obsidian-bust {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 144px;
+    width: 144px;
+    @include md {
+        height: 139px;
+        width: 139px;
+    }
+    @include lg {
+       height: 80px;
+       width: 80px; 
+    }
+    @include xl {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+.lemon-verbena-candle {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 144px;
+    width: 144px;
+    @include md {
+        height: 139px;
+        width: 139px;
+    }
+    @include lg {
+       height: 80px;
+       width: 80px; 
+    }
+    @include xl {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+.selenite-star {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 144px;
+    width: 144px;
+    @include md {
+        height: 139px;
+        width: 139px;
+    }
+    @include lg {
+       height: 80px;
+       width: 80px; 
+    }
+    @include xl {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+.acorn-crystals {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 144px;
+    width: 144px;
+    @include md {
+        height: 139px;
+        width: 139px;
+    }
+    @include lg {
+       height: 80px;
+       width: 80px; 
+    }
+    @include xl {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+.spell-candle {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 144px;
+    width: 144px;
+    @include md {
+        height: 139px;
+        width: 139px;
+    }
+    @include lg {
+       height: 80px;
+       width: 80px; 
+    }
+    @include xl {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+.magic-garden-candle {
+    background: $floral_white;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    height: 144px;
+    width: 144px;
+    @include md {
+        height: 139px;
+        width: 139px;
+    }
+    @include lg {
+       height: 80px;
+       width: 80px; 
+    }
+    @include xl {
+        height: 80px;
+        width: 80px;
+    }
 }

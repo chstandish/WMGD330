@@ -454,7 +454,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 265px;
   height: 431px;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 16px; }
   @media (min-width: 834px) {
     .item-lg-1 {
       width: 288px;
@@ -548,7 +549,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 171px;
   color: #1C1C1C;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0 auto; }
   @media (min-width: 1280px) {
     .item-label-small {
@@ -589,10 +590,308 @@ h1, h2, h3, h4, h5, h6 {
 /* images */
 .these-great-athenians {
   background: #FFF8F5;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  margin-bottom: 8px; }
-
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 232px;
+  width: 232px; }
+  @media (min-width: 834px) {
+    .these-great-athenians {
+      height: 256px;
+      width: 256px; } }
+  @media (min-width: 1280px) {
+    .these-great-athenians {
+      height: 600px;
+      width: 600px; } }
+  @media (min-width: 1440px) {
+    .these-great-athenians {
+      height: 666px;
+      width: 666px; } }
+.rosie {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 144px;
+  width: 144px; }
+  @media (min-width: 834px) {
+    .rosie {
+      height: 256px;
+      width: 256px; } }
+  @media (min-width: 1280px) {
+    .rosie {
+      height: 257px;
+      width: 257px; } }
+  @media (min-width: 1440px) {
+    .rosie {
+      height: 281px;
+      width: 281px; } }
+.the-believer {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 144px;
+  width: 144px; }
+  @media (min-width: 834px) {
+    .the-believer {
+      height: 139px;
+      width: 139px; } }
+  @media (min-width: 1280px) {
+    .the-believer {
+      height: 257px;
+      width: 257px; } }
+  @media (min-width: 1440px) {
+    .the-believer {
+      height: 281px;
+      width: 281px; } }
+.bless-the-daughter {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 144px;
+  width: 144px; }
+  @media (min-width: 834px) {
+    .bless-the-daughter {
+      height: 139px;
+      width: 139px; } }
+  @media (min-width: 1280px) {
+    .bless-the-daughter {
+      height: 257px;
+      width: 257px; } }
+  @media (min-width: 1440px) {
+    .bless-the-daughter {
+      height: 281px;
+      width: 281px; } }
+.groundskeeping {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 144px;
+  width: 144px; }
+  @media (min-width: 834px) {
+    .groundskeeping {
+      height: 139px;
+      width: 139px; } }
+  @media (min-width: 1280px) {
+    .groundskeeping {
+      height: 257px;
+      width: 257px; } }
+  @media (min-width: 1440px) {
+    .groundskeeping {
+      height: 281px;
+      width: 281px; } }
+.a-thousand-steps {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 144px;
+  width: 144px; }
+  @media (min-width: 834px) {
+    .a-thousand-steps {
+      height: 139px;
+      width: 139px; } }
+  @media (min-width: 1280px) {
+    .a-thousand-steps {
+      height: 257px;
+      width: 257px; } }
+  @media (min-width: 1440px) {
+    .a-thousand-steps {
+      height: 281px;
+      width: 281px; } }
+.the-atlas-six {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 144px;
+  width: 144px; }
+  @media (min-width: 834px) {
+    .the-atlas-six {
+      height: 139px;
+      width: 139px; } }
+  @media (min-width: 1280px) {
+    .the-atlas-six {
+      height: 257px;
+      width: 257px; } }
+  @media (min-width: 1440px) {
+    .the-atlas-six {
+      height: 281px;
+      width: 281px; } }
+.the-invisible-kingdom {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 232px;
+  width: 232px; }
+  @media (min-width: 834px) {
+    .the-invisible-kingdom {
+      height: 139px;
+      width: 139px; } }
+  @media (min-width: 1280px) {
+    .the-invisible-kingdom {
+      height: 361px;
+      width: 361px; } }
+  @media (min-width: 1440px) {
+    .the-invisible-kingdom {
+      height: 401px;
+      width: 401px; } }
+.cold-clay {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 144px;
+  width: 144px; }
+  @media (min-width: 834px) {
+    .cold-clay {
+      height: 139px;
+      width: 139px; } }
+  @media (min-width: 1280px) {
+    .cold-clay {
+      height: 80px;
+      width: 80px; } }
+  @media (min-width: 1440px) {
+    .cold-clay {
+      height: 80px;
+      width: 80px; } }
+.fairy-house {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 144px;
+  width: 144px; }
+  @media (min-width: 834px) {
+    .fairy-house {
+      height: 139px;
+      width: 139px; } }
+  @media (min-width: 1280px) {
+    .fairy-house {
+      height: 80px;
+      width: 80px; } }
+  @media (min-width: 1440px) {
+    .fairy-house {
+      height: 80px;
+      width: 80px; } }
+.obsidian-bust {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 144px;
+  width: 144px; }
+  @media (min-width: 834px) {
+    .obsidian-bust {
+      height: 139px;
+      width: 139px; } }
+  @media (min-width: 1280px) {
+    .obsidian-bust {
+      height: 80px;
+      width: 80px; } }
+  @media (min-width: 1440px) {
+    .obsidian-bust {
+      height: 80px;
+      width: 80px; } }
+.lemon-verbena-candle {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 144px;
+  width: 144px; }
+  @media (min-width: 834px) {
+    .lemon-verbena-candle {
+      height: 139px;
+      width: 139px; } }
+  @media (min-width: 1280px) {
+    .lemon-verbena-candle {
+      height: 80px;
+      width: 80px; } }
+  @media (min-width: 1440px) {
+    .lemon-verbena-candle {
+      height: 80px;
+      width: 80px; } }
+.selenite-star {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 144px;
+  width: 144px; }
+  @media (min-width: 834px) {
+    .selenite-star {
+      height: 139px;
+      width: 139px; } }
+  @media (min-width: 1280px) {
+    .selenite-star {
+      height: 80px;
+      width: 80px; } }
+  @media (min-width: 1440px) {
+    .selenite-star {
+      height: 80px;
+      width: 80px; } }
+.acorn-crystals {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 144px;
+  width: 144px; }
+  @media (min-width: 834px) {
+    .acorn-crystals {
+      height: 139px;
+      width: 139px; } }
+  @media (min-width: 1280px) {
+    .acorn-crystals {
+      height: 80px;
+      width: 80px; } }
+  @media (min-width: 1440px) {
+    .acorn-crystals {
+      height: 80px;
+      width: 80px; } }
+.spell-candle {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 144px;
+  width: 144px; }
+  @media (min-width: 834px) {
+    .spell-candle {
+      height: 139px;
+      width: 139px; } }
+  @media (min-width: 1280px) {
+    .spell-candle {
+      height: 80px;
+      width: 80px; } }
+  @media (min-width: 1440px) {
+    .spell-candle {
+      height: 80px;
+      width: 80px; } }
+.magic-garden-candle {
+  background: #FFF8F5;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  height: 144px;
+  width: 144px; }
+  @media (min-width: 834px) {
+    .magic-garden-candle {
+      height: 139px;
+      width: 139px; } }
+  @media (min-width: 1280px) {
+    .magic-garden-candle {
+      height: 80px;
+      width: 80px; } }
+  @media (min-width: 1440px) {
+    .magic-garden-candle {
+      height: 80px;
+      width: 80px; } }
 /*Join The Wonder Card*/
 .join-the-wonder {
   display: flex;
