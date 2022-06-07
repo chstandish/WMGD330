@@ -729,6 +729,78 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/deploy\/page.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/page.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/about_visit.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/about_visit.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/about-blurb.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/about-blurb.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/about-blurb.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/about-blurb.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/about-hero.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/about-hero.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/about-hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/about-hero.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/community-jar.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/community-jar.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/donations.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/donations.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/donations.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/donations.html",
+      "oF" : 0
+    },
     "\/dev\/components\/dont_see_the_book.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -817,20 +889,20 @@
       "oAP" : "\/dev\/components\/header.html",
       "oF" : 0
     },
-    "\/dev\/components\/hero.html" : {
+    "\/dev\/components\/home-hero.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/components\/hero.html",
+      "oAP" : "\/dev\/components\/home-hero.html",
       "oF" : 0
     },
-    "\/dev\/components\/hero.kit" : {
+    "\/dev\/components\/home-hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/components\/hero.html",
+      "oAP" : "\/dev\/components\/home-hero.html",
       "oF" : 0
     },
     "\/dev\/components\/items_grid.html" : {
@@ -865,6 +937,14 @@
       "oAP" : "\/dev\/components\/join_the_wonder.html",
       "oF" : 0
     },
+    "\/dev\/components\/read_more.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/read_more.html",
+      "oF" : 0
+    },
     "\/dev\/components\/shopping_sections_grid.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -879,6 +959,22 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/components\/shopping_sections_grid.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/staff.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/staff.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/staff.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/staff.html",
       "oF" : 0
     },
     "\/dev\/components\/visit_us.html" : {
@@ -915,14 +1011,6 @@
       "oF" : 2,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/dev\/page.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/page.html",
-      "oF" : 0
     },
     "\/dev\/page.kit" : {
       "cB" : 0,
