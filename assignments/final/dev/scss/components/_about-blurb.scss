@@ -1,0 +1,26 @@
+.about-blurb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 0px;
+    padding: 16px;
+    margin: 0 auto;
+    @include lg {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 121px;
+        padding-right: 121px;
+    }
+    @include xl {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 135px;
+        padding-right: 135px;
+    }
+}
+
+.about {
+    font-size: 16px;
+    color: $eerie_black;
+}

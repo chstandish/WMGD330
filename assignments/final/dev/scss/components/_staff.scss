@@ -1,0 +1,281 @@
+/*organization*/
+.our-staff {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.our-family {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/*grids*/
+.staff-intros {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 16px;
+    margin-bottom: 16px;
+    align-content: center;
+    justify-content: center;
+    @include md {
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+    }
+    @include lg {
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    }
+}
+
+.family-intros {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 16px;
+    margin-bottom: 16px;
+    align-content: center;
+    justify-content: center;
+    @include md {
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+    }
+    @include lg {
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    }
+}
+/*end grids*/
+
+/*headers*/
+.our-staff-head {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.our-family-head {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+/*end headers*/
+
+/*victoria and jordon*/
+.staff-intros-lg {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    @include md {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    @include lg {
+        grid-column: span 5;
+        grid-column-start: 2;
+        grid-column-end: 7;
+    }
+}
+
+.victoria {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    gap: 16px;
+    align-content: center;
+    justify-content: center;
+}
+
+.jordon {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    gap: 16px;
+    align-content: center;
+    justify-content: center;
+}
+
+.staff-pic-lg {
+    height: 171px;
+    width: 171px;
+    @include md {
+        height: 189px;
+        width: 189px;
+    }
+    @include lg {
+        height: 195px;
+        width: 195px;
+    }
+    @include xl {
+        height: 221px;
+        width: 221px;
+    }
+}
+
+.staff-intro-lg {
+    height: 171px;
+    width: 171px;
+    @include md {
+        height: 189px;
+        width: 189px;
+    }
+    @include lg {
+        height: 195px;
+        width: 300px;
+    }
+    @include xl {
+        height: 221px;
+        width: 340px;
+    }
+}
+/*end victoria and jordon*/
+
+/*alyssa kait calliope*/
+.staff-intros-sm {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    @include md {
+        grid-column-start: 5;
+        grid-column-end: 9;
+    }
+    @include lg {
+        grid-column: span 5;
+        grid-column-start: 7;
+        grid-column-end: 12;
+    }
+}
+
+.alyssa {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    gap: 16px;
+    align-content: center;
+    justify-content: center;
+}
+
+.kait {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    gap: 16px;
+    align-content: center;
+    justify-content: center;
+}
+
+.calliope {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    gap: 16px;
+    align-content: center;
+    justify-content: center;
+}
+
+.staff-pic-sm {
+    height: 78px;
+    width: 78px;
+    @include md {
+        height: 86px;
+        width: 86px;
+    }
+    @include lg {
+        height: 89px;
+        width: 89px;
+    }
+    @include xl {
+        height: 103px;
+        width: 103px;
+    }
+}
+
+.staff-intro-sm {
+    height: 78px;
+    width: 264px;
+    @include md {
+        height: 86px;
+        width: 291px;
+    }
+    @include lg {
+        height: 89px;
+        width: px;
+    }
+    @include xl {
+        height: 103px;
+        width: 459px;
+    }
+}
+/*end alyssa kait calliope*/
+
+/*family*/ 
+.ann {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    gap: 16px;
+    align-content: center;
+    justify-content: center;
+    grid-column: span 4;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    @include md {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    @include lg {
+        grid-column: span 5;
+        grid-column-start: 2;
+        grid-column-end: 7;
+    }
+    
+}
+
+.keenan {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    gap: 16px;
+    align-content: center;
+    justify-content: center;
+    grid-column: span 4;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    @include md {
+        grid-column-start: 5;
+        grid-column-end: 9;
+    }
+    @include lg {
+        grid-column: span 5;
+        grid-column-start: 7;
+        grid-column-end: 12;
+    }
+}
+/*end family*/
+
+/*cat*/
+.cat-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.about-cat {
+    height: 355px;
+    width: 355px;
+    @include md {
+        height: 598px;
+        width: 598px;
+    }
+    @include lg {
+        height: 616px;
+        width: 616px;
+    }
+    @include xl {
+        height: 695px;
+        width: 695px;
+    }
+}
+
