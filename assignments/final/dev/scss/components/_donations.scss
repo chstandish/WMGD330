@@ -1,0 +1,90 @@
+.donations {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    row-gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.donations-p1 {
+    justify-content: center;
+    align-items: center;
+    width: 356px;
+    @include md {
+        width: 598px;
+    }
+    @include lg {
+        width: 826px; 
+    }
+    @include xl {
+        width: 931px;
+    }
+}
+
+.donations-p2 {
+    justify-content: center;
+    align-items: center;
+    width: 356px;
+    @include md {
+        width: 598px;
+    }
+    @include lg {
+        width: 826px; 
+    }
+    @include xl {
+        width: 931px;
+    }
+}
+
+.donation-p {
+    font-size: 16px;
+    color: $eerie_black;
+    text-align: left;
+}
+
+.donations-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    @include lg {
+        flex-direction: row;
+        width: 824px;
+    }
+    @include xl {
+        flex-direction: row;
+        width: 931px;
+    }
+}
+
+.donations-row-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.donations-row-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.donation-org {
+    width: 76px;
+    @include md {
+        width: 86px;
+    }
+    @include lg {
+        width: 89px;
+    }
+    @include xl {
+        width: 103px;
+    }
+}

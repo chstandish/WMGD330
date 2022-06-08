@@ -1,0 +1,89 @@
+.community-jar {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 16px;
+    width: 386px;
+    @include md {
+        width: 600px;
+    }
+    @include lg {
+        width: 865px;
+    }
+    @include xl {
+        width: 934px;
+    }
+}
+
+.community-jar-head {
+    font-size: 24px;
+    font-weight: 500;
+    color: $eerie_black;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 356px;
+    margin-bottom: 16px;
+    @include md {
+        width: 597px;
+    }
+    @include lg {
+        width: 826px;
+    }
+    @include xl {
+        width: 934px;
+    }
+}
+
+.community-jar-item {
+    display: flex;
+    flex-direction: column;
+    background-color: $mikado_green;
+    height: 171px;
+    width: 171px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 16px;
+    @include md {
+        height: 189px;
+        width: 189px;
+    }
+    @include lg {
+        height: 195px;
+        width: 195px;
+    }
+    @include xl {
+        height: 221px;
+        width: 221px;
+    }
+}
+
+.community-jar-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.community-jar-month {
+    font-size: 24px;
+    font-weight: 500;
+    color: $eerie_black;
+}
+
+.donation-amt {
+    font-size: 16px;
+    color: $eerie_black;
+}
+
+.org-name {
+    font-size: 16px;
+    color: $eerie_black;
+}

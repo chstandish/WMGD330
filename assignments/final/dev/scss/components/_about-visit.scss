@@ -1,0 +1,63 @@
+.about-visit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 356px;
+    @include md {
+        width: 394px;
+    }
+    @include lg {
+        width: 615px;
+    }
+    @include xl {
+        width: 696px;
+    }
+}
+
+.about-visit-head {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+    width: 356px;
+    @include md {
+        width: 394px;
+    }
+    @include lg {
+        width: 615px;
+    }
+    @include xl {
+        width: 696px;
+    }
+}
+
+.about-visit-p {
+    font-size: 16px;
+    text-align: left;
+}
+
+.about-visit-logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.visit-link {
+    width: 76px;
+    height: 76px;
+    @include md {
+        width: 86px;
+        height: 86px;
+    }
+    @include lg {
+        width: 89px;
+        height: 89px;
+    }
+    @include xl {
+        width: 103px;
+        height: 103px;
+    }
+}
