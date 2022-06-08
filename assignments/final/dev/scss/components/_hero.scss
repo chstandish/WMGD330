@@ -18,13 +18,16 @@
    font-weight: 700;
    text-align: center;
    width: 353px;
-   @include md{
+
+   @include md {
       width: 416px;
    }
-   @include lg{
+
+   @include lg {
       width: 416px;
    }
-   @include xl{
+
+   @include xl {
       width: 416px;
    }
 }
@@ -34,13 +37,16 @@
    font-size: 16px;
    text-align: center;
    width: 351px;
-   @include md{
+
+   @include md {
       width: 414px;
    }
-   @include lg{
+
+   @include lg {
       width: 414px;
    }
-   @include xl{
+
+   @include xl {
       width: 414px;
    }
 }

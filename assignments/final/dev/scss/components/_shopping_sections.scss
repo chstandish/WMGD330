@@ -3,9 +3,11 @@
     grid-template-columns: auto auto auto auto;
     gap: 16px;
     margin-bottom: 16px;
+
     @include md {
         grid-template-columns: auto auto auto auto auto auto auto auto;
     }
+
     @include lg {
         grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
     }
@@ -17,10 +19,12 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
+
     @include md {
         grid-column-start: 2;
         grid-column-end: 8;
     }
+
     @include lg {
         grid-column-start: 3;
         grid-column-end: 11;
@@ -33,9 +37,11 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
+
     @include md {
         grid-column: span 4;
     }
+
     @include lg {
         grid-column: span 4;
     }
@@ -47,9 +53,11 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
+
     @include md {
         grid-column: span 4;
     }
+
     @include lg {
         grid-column: span 4;
     }
@@ -61,9 +69,11 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
+
     @include md {
         grid-column: span 4;
     }
+
     @include lg {
         grid-column: span 4;
     }
@@ -75,9 +85,11 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
+
     @include md {
         grid-column: span 4;
     }
+
     @include lg {
         grid-column: span 4;
     }
@@ -89,9 +101,11 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
+
     @include md {
         grid-column: span 4;
     }
+
     @include lg {
         grid-column: span 4;
     }
@@ -103,9 +117,11 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
+
     @include md {
         grid-column: span 4;
     }
+
     @include lg {
         grid-column: span 4;
     }
@@ -114,14 +130,17 @@
 .large-section-img {
     width: 358px;
     height: 358px;
+
     @include md {
         width: 598px;
         height: 598px;
     }
+
     @include lg {
         width: 827px;
         height: 827px;
     }
+
     @include xl {
         width: 933px;
         height: 933px;
@@ -131,14 +150,17 @@
 .small-section-img {
     width: 171px;
     height: 171px;
+
     @include md {
         width: 393px;
         height: 393px;
     }
+
     @include lg {
         width: 405px;
         height: 405px;
     }
+
     @include xl {
         width: 457px;
         height: 457px;

@@ -4,12 +4,15 @@
     margin: 0 auto;
     gap: 16px;
     width: 386px;
+
     @include md {
         width: 600px;
     }
+
     @include lg {
         width: 865px;
     }
+
     @include xl {
         width: 934px;
     }
@@ -25,12 +28,15 @@
     margin: 0 auto;
     width: 356px;
     margin-bottom: 16px;
+
     @include md {
         width: 597px;
     }
+
     @include lg {
         width: 826px;
     }
+
     @include xl {
         width: 934px;
     }
@@ -48,14 +54,17 @@
     justify-content: center;
     margin: 0 auto;
     padding: 16px;
+
     @include md {
         height: 189px;
         width: 189px;
     }
+
     @include lg {
         height: 195px;
         width: 195px;
     }
+
     @include xl {
         height: 221px;
         width: 221px;

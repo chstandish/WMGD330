@@ -8,18 +8,21 @@
 
 .header_logo {
     width: 123px;
+
     @include md {
         width: 128px;
     }
+
     @include lg {
         width: 133px;
     }
-    @include xl{
+
+    @include xl {
         width: 138px;
     }
 }
 
-.header-links{
+.header-links {
     display: flex;
     flex-direction: row;
     gap: 16px;
@@ -31,37 +34,42 @@
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
+
     @include lg {
         display: flex;
     }
+
     @include xl {
         display: flex;
     }
 }
 
-.header-icons{
+.header-icons {
     display: flex;
     gap: 16px;
 }
 
-.header_search{
+.header_search {
     width: 29px;
 }
 
-.header_shopping{
+.header_shopping {
     width: 27px;
 }
 
 .header_person {
     display: none;
     width: 22px;
-    @include md{
+
+    @include md {
         display: flex;
     }
-    @include lg{
+
+    @include lg {
         display: flex;
     }
-    @include xl{
+
+    @include xl {
         display: flex;
     }
 }
@@ -69,10 +77,12 @@
 .header_hamburger {
     display: flex;
     width: 27px;
-    @include lg{
+
+    @include lg {
         display: none;
     }
+
     @include xl {
-        display:none;
+        display: none;
     }
 }

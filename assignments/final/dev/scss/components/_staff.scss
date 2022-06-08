@@ -19,9 +19,11 @@
     margin-bottom: 16px;
     align-content: center;
     justify-content: center;
+
     @include md {
         grid-template-columns: auto auto auto auto auto auto auto auto;
     }
+
     @include lg {
         grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
     }
@@ -34,13 +36,16 @@
     margin-bottom: 16px;
     align-content: center;
     justify-content: center;
+
     @include md {
         grid-template-columns: auto auto auto auto auto auto auto auto;
     }
+
     @include lg {
         grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
     }
 }
+
 /*end grids*/
 
 /*headers*/
@@ -49,11 +54,13 @@
     font-size: 40px;
     font-weight: 800;
 }
+
 .our-family-head {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
+
 /*end headers*/
 
 /*victoria and jordon*/
@@ -63,10 +70,12 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
+
     @include md {
         grid-column-start: 1;
         grid-column-end: 4;
     }
+
     @include lg {
         grid-column: span 5;
         grid-column-start: 2;
@@ -95,14 +104,17 @@
 .staff-pic-lg {
     height: 171px;
     width: 171px;
+
     @include md {
         height: 189px;
         width: 189px;
     }
+
     @include lg {
         height: 195px;
         width: 195px;
     }
+
     @include xl {
         height: 221px;
         width: 221px;
@@ -112,19 +124,23 @@
 .staff-intro-lg {
     height: 171px;
     width: 171px;
+
     @include md {
         height: 189px;
         width: 189px;
     }
+
     @include lg {
         height: 195px;
         width: 300px;
     }
+
     @include xl {
         height: 221px;
         width: 340px;
     }
 }
+
 /*end victoria and jordon*/
 
 /*alyssa kait calliope*/
@@ -134,10 +150,12 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
+
     @include md {
         grid-column-start: 5;
         grid-column-end: 9;
     }
+
     @include lg {
         grid-column: span 5;
         grid-column-start: 7;
@@ -175,14 +193,17 @@
 .staff-pic-sm {
     height: 78px;
     width: 78px;
+
     @include md {
         height: 86px;
         width: 86px;
     }
+
     @include lg {
         height: 89px;
         width: 89px;
     }
+
     @include xl {
         height: 103px;
         width: 103px;
@@ -192,22 +213,26 @@
 .staff-intro-sm {
     height: 78px;
     width: 264px;
+
     @include md {
         height: 86px;
         width: 291px;
     }
+
     @include lg {
         height: 89px;
         width: px;
     }
+
     @include xl {
         height: 103px;
         width: 459px;
     }
 }
+
 /*end alyssa kait calliope*/
 
-/*family*/ 
+/*family*/
 .ann {
     display: flex;
     flex-direction: row;
@@ -219,16 +244,18 @@
     display: flex;
     align-items: center;
     gap: 16px;
+
     @include md {
         grid-column-start: 1;
         grid-column-end: 4;
     }
+
     @include lg {
         grid-column: span 5;
         grid-column-start: 2;
         grid-column-end: 7;
     }
-    
+
 }
 
 .keenan {
@@ -242,16 +269,19 @@
     display: flex;
     align-items: center;
     gap: 16px;
+
     @include md {
         grid-column-start: 5;
         grid-column-end: 9;
     }
+
     @include lg {
         grid-column: span 5;
         grid-column-start: 7;
         grid-column-end: 12;
     }
 }
+
 /*end family*/
 
 /*cat*/
@@ -265,17 +295,19 @@
 .about-cat {
     height: 355px;
     width: 355px;
+
     @include md {
         height: 598px;
         width: 598px;
     }
+
     @include lg {
         height: 616px;
         width: 616px;
     }
+
     @include xl {
         height: 695px;
         width: 695px;
     }
 }
-

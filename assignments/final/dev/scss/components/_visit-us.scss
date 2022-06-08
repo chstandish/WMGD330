@@ -3,12 +3,15 @@
     background-position: center;
     background-size: cover;
     height: 454px;
+
     @include md {
         height: 468px;
     }
+
     @include lg {
         height: 468px;
     }
+
     @include xl {
         height: 528px;
     }
@@ -21,14 +24,17 @@
     justify-content: center;
     padding-top: 24px;
     margin-left: 16px;
+
     @include md {
         padding-top: 32px;
         margin-left: 119px;
     }
+
     @include lg {
         padding-top: 32px;
         margin-left: 334px;
     }
+
     @include xl {
         padding-top: 64px;
         margin-left: 373px;
@@ -57,6 +63,7 @@
     font-size: 16px;
     font-weight: 500;
 }
+
 /*end location section*/
 
 /*hours*/
@@ -80,6 +87,7 @@
     color: $white;
     font-size: 16px;
 }
+
 /*end hours*/
 
 /*location buttons*/
